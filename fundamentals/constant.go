@@ -1,5 +1,5 @@
 // constant is imutable variable
-// use `const` to declare 
+// use `const` to declare
 // must give the value right away
 // Go will not complain if a constant is not used (unlike variable)
 
@@ -20,6 +20,6 @@ func main() {
 	// multiple declartion
 	const (
 		firstName string = "nplay"
-		lastName = "book"
+		lastName         = "book"
 	)
 }
