@@ -7,9 +7,9 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	var name string // declare data type
-	
+
 	name = "nplaybook"
 	fmt.Println(name)
 
@@ -30,7 +30,7 @@ func main(){
 	fmt.Println(age)
 	fmt.Println(nextDate)
 
-	// we can use := operator to replace `var` 
+	// we can use := operator to replace `var`
 	// but we need to give the value right away
 	// this way we can't declare data type
 	height := 168
@@ -38,8 +38,8 @@ func main(){
 
 	// declare multiple variable
 	var (
-		lastName = "book"
-		weight float32 = 65.5
+		lastName         = "book"
+		weight   float32 = 65.5
 	)
 	fmt.Println(lastName)
 	fmt.Println(weight)

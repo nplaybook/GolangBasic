@@ -14,7 +14,7 @@
 // ::float32 (1.18 x ^-38 - 3.4 x ^38)
 // ::float64 (2.23 x ^-308 - 1.8 x ^308)
 // ::complex64
-// ::complex128 
+// ::complex128
 
 package main
 
